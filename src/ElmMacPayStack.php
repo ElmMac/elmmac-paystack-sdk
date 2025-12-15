@@ -18,7 +18,7 @@
  * - No session logic
  * - Pure HTTP client
  */
- 
+ namespace ElmMac\Paystack;
 
 class ElmMacPayStack
 {
