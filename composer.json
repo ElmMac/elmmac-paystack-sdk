@@ -1,0 +1,16 @@
+{
+  "name": "elmmac/elmmac-paystack-sdk",
+  "description": "Lightweight procedural Paystack SDK by ElmMac with init, callback and webhook helpers.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ElmMac\\Paystack\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
