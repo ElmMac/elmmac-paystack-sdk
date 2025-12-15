@@ -2,6 +2,15 @@
 
 ElmMacPaystack is a lightweight PHP SDK for integrating Paystack into classic/procedural PHP projects. It handles initialize, callback and webhook flows, and logs full request/response payloads into a generic `elmmacpaystackpayments` table.
 
+[![GitHub tag](https://img.shields.io/github/v/tag/ElmMac/elmmac-paystack-sdk?label=version&sort=semver)](https://github.com/ElmMac/elmmac-paystack-sdk/tags)
+![GitHub license](https://img.shields.io/github/license/ElmMac/elmmac-paystack-sdk)
+![GitHub issues](https://img.shields.io/github/issues/ElmMac/elmmac-paystack-sdk)
+![GitHub stars](https://img.shields.io/github/stars/ElmMac/elmmac-paystack-sdk?style=social)
+
+[![Packagist Version](https://img.shields.io/packagist/v/elmmac/elmmac-paystack-sdk.svg)](https://packagist.org/packages/elmmac/elmmac-paystack-sdk)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/elmmac/elmmac-paystack-sdk.svg)](https://packagist.org/packages/elmmac/elmmac-paystack-sdk)
+
+
 ## Features
 
 - Simple PHP class wrapper around Paystack REST API
