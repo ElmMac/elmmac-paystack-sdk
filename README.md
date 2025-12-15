@@ -75,12 +75,10 @@ Pull requests and issues are welcome. Please open an issue first if you plan a b
 
 This project is open-source. You can use the MIT license below or choose a different license that fits your needs.
 
-```
+
 ## 🙏 Credits
 
 Developed with 🚀 by **ElmMac Pty Ltd**\
 Maintained by @ElmMac - **Misael Cruise Mutege** — [WhatsApp: +27786411181](https://web.whatsapp.com/send?phone=27786411181)  Durban, South Africa\
 Digital Dev | Hustler Mode: `ON 💼`
 
----
-```
