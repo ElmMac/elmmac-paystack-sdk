@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ElmMac Paystack Test</title>
+  <style>
+    body{font-family:system-ui,Arial;margin:40px;max-width:640px}
+    label{display:block;margin:12px 0 6px}
+    input,select,button{width:100%;padding:10px;font-size:16px}
+    button{margin-top:16px;cursor:pointer}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  </style>
+</head>
+<body>
+  <h2>ElmMac Paystack Payment</h2>
+
+  <form method="POST" action="elmmacpaystack/elmmacpaystack_init.php">
+    <label>User ID</label>
+    <input name="user_id" type="number" min="1" required placeholder="e.g. 12" />
+
+    <label>Email</label>
+    <input name="email" type="email" required placeholder="customer@email.com" />
+
+    <div class="row">
+      <div>
+        <label>Amount (ZAR)</label>
+        <input name="amount" type="number" min="10" step="1" required placeholder="e.g. 150" />
+      </div>
+      <div>
+        <label>Currency</label>
+        <select name="currency" required>
+          <option value="ZAR" selected>ZAR</option>
+          <option value="NGN">NGN</option>
+          <option value="GHS">GHS</option>
+          <option value="KES">KES</option>
+          <option value="USD">USD</option>
+        </select>
+      </div>
+    </div>
+
+    <label>Purpose</label>
+    <input name="purpose" type="text" required placeholder="e.g. ElmMac subscription" />
+
+    <button type="submit">Pay with Paystack</button>
+  </form>
+
+  <p style="margin-top:18px;font-size:14px;color:#666">
+    Note: Paystack doesn’t support separate <code>success_url</code>/<code>cancel_url</code>/<code>failed_url</code> like some gateways.
+    You get one <code>callback_url</code>, then you verify reference and route to success/failed pages yourself.
+  </p>
+</body>
+</html>
