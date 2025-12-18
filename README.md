@@ -68,7 +68,7 @@ Then in your callback script you can:
 // verify reference and update elmmacpaystackpayments
 ```
 
-(See the example files in `examples/` for `init`, `callback`, and `webhook` handlers.)
+(See the example files in `elmmacpaystack/` for `init`, `callback`, and `webhook` handlers.)
 
 ## Roadmap
 
